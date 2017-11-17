@@ -1,0 +1,47 @@
+-----------------------------------------------
+The Game Of Life
+-----------------------------------------------
+
+Készítõk:Petrus Richárd; Tóth Richárd; Kecsmár Patrik
+
+-----------------------------------------------
+
+A dokumentum bemutatása:
+
+-A dokumentum célja bemutatni a The Game Of Life játék specifikációit. 
+- Figyelem felhívást létrehozni a leendõ játékosok felé.
+-----------------------------------------------
+A játék célja:
+- Játék és a játékos szerepe mindössze annyi, hogy megad egy kezdõalakzatot, és azután csak figyeli az eredményt. 
+- Türelem szükséges a játékhoz, és így lefoglalja a jelenleg játszót.
+- Ingyenesen hozzáférhetõ, szórakoztató játékot létrehozni
+-----------------------------------------------
+Specifikáció / Leírás:
+Játékos szerepe mindössze annyi, hogy megad egy kezdõalakzatot, és azután csak figyeli az eredményt.
+A négyzetrács mezõit celláknak, a korongokat sejteknek nevezzük.
+Egy sejt/cella szomszédjai a környezetében lévõ sejtek.
+ A játék körökre osztott, a kezdõ állapotban tetszõleges számú (egy vagy több) cellába sejteket helyezünk.
+ Ezt követõen a játékosnak nincs beleszólása a játékmenetbe. 
+
+Egy sejttel (cellával) egy körben a következõ három dolog történhet:
+1.	A sejt túléli a kört, ha két vagy három szomszédja van.
+2.	A sejt elpusztul, ha kettõnél kevesebb (elszigetelõdés), vagy háromnál több (túlnépesedés) szomszédja van.
+3.	Új sejt születik minden olyan cellában, melynek környezetében pontosan három sejt található.
+
+
+
+Mérföldkövek:
+Sejtek egy halmazát alakzatnak hívjuk.
+Néhány ilyen alakzat rövid idõn belül kihal,eltûnik; mások változatlanok maradnak (tengõdõ alakzatok), és olyanok is léteznek, amelyek ciklikusan önmagukba térnek vissza (pulzáló alakzatok).
+•	Néhány pulzáló (dinamikusan stabil) alakzat:
+•	Béka
+•	Vészjel
+•	Óra
+•	Sikló alakzat az érdekes tulajdonsága, hogy négy fázison át (a kiindulást nem számolva) önmagába alakul vissza, és eközben átlósan egy kockányit elmozdul, összességében véve átlósan mozog. 
+•	Néhány tengõdõ (statikusan stabil) alakzat
+•	Csõ
+•	Ló
+•	Kígyó
+•	Méhsejt
+•	Hajó
+•	Cipó
